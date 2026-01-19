@@ -1,0 +1,33 @@
+# Copy this file to .env and fill in your values
+
+# Server Configuration
+
+PORT=5000
+NODE_ENV=development
+
+# JWT Secret (generate a strong random string)
+
+JWT_SECRET=dev-secret-key-change-in-production-12345
+
+# Database Configuration (SQL Server)
+
+DB_HOST=database-2.cgxcmm0mowm7.us-east-1.rds.amazonaws.com
+DB_USER=admin
+DB_PASSWORD=gul123han
+DB_NAME=learning_portal
+DB_PORT=1433
+
+# AWS S3 Configuration
+
+AWS_REGION=us-east-1
+AWS_ACCESS_KEY_ID=your-aws-access-key-id
+AWS_SECRET_ACCESS_KEY=your-aws-secret-access-key
+S3_BUCKET_NAME=your-s3-bucket-name
+
+# CORS Configuration
+
+CLIENT_URL=http://localhost:3000
+
+# SQL Server specific
+
+DB_ENCRYPT=false
